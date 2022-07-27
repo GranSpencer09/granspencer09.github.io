@@ -43,106 +43,127 @@ body {
     list-style-type: none;
 }
 
-/*  */
+/* properly display the text for the 3 menu options */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* this provides the color and text style for the nav bar */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* provides different font size for the 3 paragraphs listed */
 p {
     font-size: 16px;
 }
 
+/* this styles the size of the container used to show the image of the marketing team */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images2/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
 
+/* tells the images in the first and third paragraphs to align left and provide some margin space */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* similar to float-left, tells the images in the second paragraph to align right and provide some margin space */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* gives size, margin and display settings for the three containers that hold the paragraphs and images */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* styles the container on the right of the screen that runs along teh three paragraphs */
 .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    height: 940px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #0072bb;
 }
 
-.benefit-lead {
+/* each of the three benefits needs to stand out from the benefits container, this helps give the text contrast */
+/* also eliminate need to repeat code for other two benefits */
+.benefit-lead, .benefit-cost, .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* same as benefit-lead 
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
-}
+}*/
 
+/* same as benefit-lead 
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+}*/
 
-.benefit-lead h3 {
+/* header for the first benefit mist also stand out and needs to be centered */
+/* also eliminate need to repeat code for other two benefits */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* same as benefit-lead h3 
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+}*/
 
+/* same as benefit-lead h3 
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+}*/
 
-.benefit-lead img {
+/* gives the lead benefit image space and ensures it appears on a new line */
+/* also eliminate need to repeat code for other two benefits */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* same as benefit-lead img 
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+}*/
 
+/* same as benefit-lead img 
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+}*/
 
-.search-engine-optimization {
+/* sets the size and style of the paragraph containing SEO paragraph */
+/* also eliminate need to repeat code for other two paragraphs */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -151,6 +172,7 @@ p {
     color: #ffffff;
 }
 
+/* sets the size and style of the paragraph containing online reputation paragraph 
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -158,8 +180,9 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+}*/
 
+/* sets the size and style of the paragraph containing social media marketing paragraph 
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -167,35 +190,42 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+}*/
 
-.search-engine-optimization img {
+/* set proper height for the images included in benefit. also eliminated need to repeat code for the other two images */
+.search-engine-optimization img, .social-media-marketing img, .online-reputation-management img{
     max-height: 200px;
 }
 
-.online-reputation-management img {
+/*  
+ {
     max-height: 200px;
-}
+}*/
 
+/*  
 .social-media-marketing img {
     max-height: 200px;
-}
+}*/
 
-.search-engine-optimization h2 {
+/* gives space and sets the font size to the h2's in the paragraphs. CSS consolidated */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*  
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+}*/
 
+/*  
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+}*/
 
+/* styling for footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -203,6 +233,7 @@ p {
     text-align: center;
 }
 
+/* styling for footer h2 */
 .footer h2 {
     font-size: 20px;
 }
