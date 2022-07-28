@@ -3,70 +3,70 @@ Project name:
 
 
 
-Project description:
+## Project description:
 This page loads a homepage for the company Horiseon - a marketing agency that offers consultation to improve SEO, social media marketing and brand building services. The aim purpose of my work on the page was to improve it's SEO standing.
 
 The motivation from the client: As a marketing agency they want a codebase that follows accessibility standards so their our own site is optimized for search engines.
 
 To meet their expectations, I've added alt descriptions to the few images included on the page. I've also optimized the layout of the CSS elements such that the elements follow a logical structure independent of styling and positioning. Similarly, all the heading attributes fall in sequential order. Finally, I've amended the title so it's more descriptive while remaining consise. 
-- What problem does it solve?
-- What did you learn?
+
+Working on this I realized it's important to consolidate CSS code. There's often instances where you need the same styling applied to many elements.
 
 
 
-Installation:
-Load in Chrome!
+## Installation:
+Not sure there's any instalation needed. Just load in Google. 
 
 
 ## Usage
-Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and 
-upload your screenshot to it. Then, using the relative file path, add it to 
-your README using the following syntax:
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+The marketing agency will use this as their homepage it seems. 
 
 
-
-Project credits:
+## Project credits:
 Main codebase from instuctors. SEO edits made by Spencer G (scope of those edits outlined in project description).
 
 
 
 ## License
-The last section of a high-quality README file is the license. This lets other
-developers know what they can and cannot do with your project. If you need 
-help choosing a license, refer to 
+MIT License
 
-[https://choosealicense.com/](https://choosealicense.com/).
+Copyright (c) 2022 Spencer Gran
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 
 ## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let 
-other developers know that you know what you're doing. Check out the badges 
-hosted by [shields.io](https://shields.io/). You may not understand what they 
-all represent now, but you will in time.
+NA...yet
 
 
 
 ## Features
-If your project has a lot of features, list them here.
+Main feature is the nav bar linking to elements within the page. So, clicking any of the three nav bar options, brings the user to a specific part of the page.
 
 
 
 ## How to Contribute
-If you created an application or package and would like other developers to 
-contribute it, you can include guidelines for how to do so. The [Contributor 
-Covenant](https://www.contributor-covenant.org/) is an industry standard, but 
-you can always write your own if you'd prefer.
+Contributor Covenant Badge
+![image](https://user-images.githubusercontent.com/28960328/181634521-c7df7fdd-b7b4-480b-bd51-70b9670a2602.png)
 
 
 
 ## Tests
-Go the extra mile and write tests for your application. Then provide examples 
-on how to run them here.
+This isn't a very complext page, but testing it could be done by clicking 'Search Bar Optimization' in the nav bar. A successful test means the page scrolls down to thatcorresponding paragraph.
