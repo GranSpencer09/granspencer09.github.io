@@ -11,7 +11,7 @@ body {
 }
 
 /* gives header layout proper formatting so text, styled in subsequent lines, appears right */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -19,18 +19,18 @@ body {
 }
 
 /* adds layout and font size to Horiseon */
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* edits color or 'seo' in Horiseon so it stands out */
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 /* edits layout and style of the 3 menu options in the header */
-.header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,12 +39,12 @@ body {
 }
 
 /* the ul in the header shouldn't include list-item marker */
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
 /* properly display the text for the 3 menu options */
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -92,7 +92,7 @@ p {
 /* styles the container on the right of the screen that runs along teh three paragraphs */
 .benefits {
     margin-right: 20px;
-    padding: 20px;
+    padding: 30px;
     clear: both;
     float: right;
     width: 20%;
@@ -103,8 +103,8 @@ p {
 
 /* each of the three benefits needs to stand out from the benefits container, this helps give the text contrast */
 /* also eliminate need to repeat code for other two benefits */
-.benefit-lead, .benefit-cost, .benefit-brand {
-    margin-bottom: 32px;
+#benefit-lead, #benefit-cost, #benefit-brand {
+    margin-bottom: 35px;
     color: #ffffff;
 }
 
@@ -122,7 +122,7 @@ p {
 
 /* header for the first benefit mist also stand out and needs to be centered */
 /* also eliminate need to repeat code for other two benefits */
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+#benefit-lead h3, #benefit-brand h3, #benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -141,9 +141,9 @@ p {
 
 /* gives the lead benefit image space and ensures it appears on a new line */
 /* also eliminate need to repeat code for other two benefits */
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+#benefit-lead img, #benefit-brand img, #benefit-cost img {
     display: block;
-    margin: 10px auto;
+    margin: 5px auto;
     max-width: 150px;
 }
 
@@ -170,6 +170,10 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+
+.online-reputation-management {
+    text-align: right;
 }
 
 /* sets the size and style of the paragraph containing online reputation paragraph 
@@ -212,12 +216,6 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/*  
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}*/
 
 /*  
 .social-media-marketing h2 {
