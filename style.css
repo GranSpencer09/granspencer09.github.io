@@ -30,7 +30,7 @@ header h1 .seo {
 }
 
 /* edits layout and style of the 3 menu options in the header */
-header nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,12 +39,12 @@ header nav {
 }
 
 /* the ul in the header shouldn't include list-item marker */
-header nav ul {
+nav ul {
     list-style-type: none;
 }
 
 /* properly display the text for the 3 menu options */
-header nav ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
